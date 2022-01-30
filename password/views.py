@@ -6,6 +6,9 @@ import random
 def inicial(request):
     return render(request,"home.html", {"password":"abcdefghijk"})
 
+def sobre(request):
+    return render(request,'about.html')
+
 
 def password(request):
     characters = list('abcdefghijklmnopqrstuvwxyz')

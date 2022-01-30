@@ -19,7 +19,8 @@ from password import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.inicial,name='home'),
+    path("", views.sobre, name ='about'),
+    path("home/", views.inicial,name='home'),
     path("password/", views.password,name='password')
 
 ]
