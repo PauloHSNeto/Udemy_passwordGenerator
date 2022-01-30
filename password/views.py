@@ -6,4 +6,4 @@ def inicial(request):
 
 
 def password(request):
-    return HttpResponse("1+1 =" )
+    return render(request,"password.html")
